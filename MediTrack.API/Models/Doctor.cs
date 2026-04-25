@@ -4,10 +4,10 @@ namespace MediTrack.API.Models
     public class Doctor
     {
         [Key]
-        public int id { get; set; }
+        public int Id { get; set; }
         [Required]
         [MaxLength(100)]
-        public string name { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
         [Required]
         [MaxLength(50)]
         public string Specialization { get; set; } = string.Empty;

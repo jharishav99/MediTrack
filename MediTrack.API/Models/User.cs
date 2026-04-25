@@ -4,7 +4,7 @@ namespace MediTrack.API.Models
     public class User
     {
         [Key]
-        public int id { get; set; }
+        public int Id { get; set; }
         [Required]
         [MaxLength(100)]
         public string Email { get; set; } = string.Empty;
