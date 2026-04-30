@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediTrack.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39fcb83d9f2fe00e55954e57da8e82ef08462727")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1624fe39a202c9c901325fca4f75dcccf83b163")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediTrack.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediTrack.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
