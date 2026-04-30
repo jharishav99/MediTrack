@@ -44,7 +44,7 @@ namespace MediTrack.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<PatientResponseDto>> Update([FromBody] UpdatePatientDto dto)
+        public async Task<ActionResult<PatientResponseDto>> Update(int id,[FromBody] UpdatePatientDto dto)
         {
             var updated = await _patientService.UpdateAsync(id, dto);
             if (updated == null) return NotFound();
