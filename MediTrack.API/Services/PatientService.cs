@@ -11,7 +11,7 @@ public class PatientService: IPatientService
     {
 
         private readonly AppDbContext _context;
-    private readonly IMapper _mapper;    
+        private readonly IMapper _mapper;    
         public PatientService(AppDbContext context, IMapper mapper)
     {
         _context = context;
